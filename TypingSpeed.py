@@ -18,7 +18,6 @@ print('~About Me')
 print('Hello World!')
 print('Creator: Sahil Rajwar Of Class 12th-A Science Student.')
 print('Date: Thursday 14/Oct/2021')
-print('License: NCC (Non Copyright Code) XD')
 print("************************************************************")
 
 try:
@@ -31,7 +30,7 @@ except KeyboardInterrupt as e:
 win = Tk()
 win.geometry('550x400')
 win.title('Speed Typing')
-win.iconbitmap(r'C:\\Users\\abc\\OneDrive\\Desktop\\Python\\typingspeed.ico')
+win.iconbitmap(r'<provide the path of typingspeed.ico>')
 win.resizable(0,0)
 
 # Back END
@@ -45,7 +44,7 @@ def set_record():
     global correct, incorrect, name
     total = correct + incorrect
     result = round((correct/total)*100,3)
-    record = open('C:\\Users\\abc\\OneDrive\\Desktop\\Python\\record_ts.txt','a')
+    record = open('record_ts.txt','a')
     record.write('******************************\n')
     record.write(f'Done by {name} at {c_time}\n')
     record.write(f'Miss: {incorrect}\n')
@@ -63,7 +62,7 @@ def compare():
     else:
         print(f'Too Slow! {name} Need Improving')
 
-with open("C:\\Users\\abc\\OneDrive\\Desktop\\Python\\words.txt", "r") as file:
+with open("<provide the path of words.txt>", "r") as file:
     allText = file.read()
     words = list(map(str, allText.split()))
 word = random.choice(words)
