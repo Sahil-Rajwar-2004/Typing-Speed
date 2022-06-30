@@ -30,7 +30,7 @@ except KeyboardInterrupt as e:
 win = Tk()
 win.geometry('550x400')
 win.title('Speed Typing')
-win.iconbitmap(r'<provide the path of typingspeed.ico>')
+win.iconbitmap(r'<provide the path of Typing_Logo.ico>')
 win.resizable(0,0)
 
 # Back END
