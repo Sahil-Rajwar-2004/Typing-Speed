@@ -1,7 +1,7 @@
 '''
 ~About Me:
     Hello World!
-    Creator: Sahil Rajwar Of Class 12th-A Science Student.
+    Creator: Sahil Rajwar Computer Science Student.
     Date: Thursday, 14/Oct/2021
 
 '''
